@@ -1,0 +1,170 @@
+@import 'colors/one-dark.css';
+
+* {
+    border: none;
+    border-radius: 0px;
+
+    font-family: "Adwaita Sans", "JetBrains Mono Nerd Font", sans-serif;
+    font-weight: bold;
+
+    min-height: 0;
+    padding: 0px 0px;
+    margin: 0px 0px;
+
+}
+
+window#waybar {
+    background: @bg0;
+    border: 1px solid @bg1;
+    border-bottom: 3px solid gray;  
+}
+
+tooltip {
+    background: @bg0;
+    border: 1px solid @bg3;
+    border-radius: 12px;
+}
+
+tooltip label {
+    color: @fg;
+    padding: 6px;
+}
+
+#workspaces {
+    background-color: @bg0;
+    color: @fg;
+}
+
+#workspaces button {
+    color: white;
+    padding: 0px 8px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 3px solid gray
+}
+
+#workspaces button.active {
+    background-color: @blue;
+    color: @bg0;
+    border-bottom: 3px solid white; 
+}
+
+#workspaces button:hover {
+    color: @orange;
+}
+
+
+
+
+
+
+#custom-pacman {
+    font-size: 15px;
+    margin-left: 5px;
+    color: @blue;
+}
+
+
+#custom-pacman:hover {
+    color: @orange;
+}
+
+
+#custom-rofi {
+    margin-left: 5px;
+    font-size: 20px;
+    color: @blue;
+    transition: all 0.3s ease-in-out;
+}
+
+#custom-rofi:hover {
+    transition: all 0.3s ease-in-out;
+    color: @orange;
+}
+
+#battery.critical {
+    color: #ff4444;
+}
+
+/* Опционально — мигание при очень низком заряде */
+#battery.critical:not(.charging) {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    to { opacity: 0; }
+}
+
+#battery,
+#pulseaudio,
+#custom-notification {
+    background-color: @bg0;
+    padding: 0 5px 0 5px;
+    margin: 0 0 0 12px;
+    border-bottom: 3px solid gray; 
+}
+
+
+
+
+
+#clock {
+    color: @blue;
+    padding: 0 10px 0 10px;
+    margin: 0 0 0 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+#clock:hover {
+    color: @orange;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#network  {
+    padding-right: 7px;
+    padding-left: 5px;
+}
+
+
+
+
+#custom-notification {
+    color: @fg;
+    margin: 0 12px 0 0;
+}
+
+#pulseaudio {
+    padding: 0 0px 0 0;
+    color: @yellow;
+}
+
+#network {
+    color: @purple;
+}
+
+#battery {
+    color: @green;
+    padding: 0 15px 0 0px;
+}
+
+
+
+
+#custom-keyboard {
+    color: white;
+}
+
+
+
+
+
+
+#custom-cpu_temp {
+    padding: 0 10px 0 10px;
+    color: @blue;
+}
+
+#custom-gpu_temp {
+    padding: 0 10px 0 0px;
+    color: @green;
+}

@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ * 
+ * Colors
+ **/
+
+* {
+    background:     #2E3440FF;  /* Nord dark */
+    background-alt: #3B4252FF;  /* Nord lighter */
+    foreground:     #ECEFF4FF;  /* Snow */
+    selected:       #88C0D0FF;  /* Ice blue */
+    active:         #A3BE8CFF;  /* Sage green */
+    urgent:         #BF616AFF;  /* Red */
+}
