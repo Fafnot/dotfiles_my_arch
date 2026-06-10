@@ -2,6 +2,8 @@
 # Пользовательские пакеты Arch Linux
 # Для установки: sudo pacman -S $(cat packages.txt | grep -v '^#' | tr '\n' ' ')
 
+
+# устоновка шрифтов yay -S gnu-free-fonts noto-fonts-cjk otf-font-awesome powerline-fonts ttf-dejavu ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-material-design-icons-git ttf-material-icons-git ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common woff2-font-awesome adwaita-fonts
 # шрифты 
 gnu-free-fonts
 noto-fonts-cjk
