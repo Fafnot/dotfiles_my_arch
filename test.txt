@@ -5,3 +5,7 @@ rm -rf ~/.oh-my-zsh/custom/themes/powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 
 
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
